@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/light/light",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/light/light",
+      "text": "小夜灯",
+      "iconPath": "icons/index.png",
+      "selectedIconPath": "icons/index_active.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "mDNS搜索",
+      "iconPath": "icons/category.png",
+      "selectedIconPath": "icons/category_active.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
